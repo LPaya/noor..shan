@@ -1,0 +1,227 @@
+html {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-color: rgb(235, 235, 221);
+}
+
+header {
+    background-color: black;
+    margin: 0.73vw;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: max(0.37vw, 3px) max(1.46vw, 12px);
+}
+
+#brand {
+    color: white;
+    font-size: max(1.32vw, 16px);
+}
+
+#logo {
+    width: max(3.66vw, 40px);
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px 0;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 30px;
+    padding-bottom: 30px;
+}
+
+h1 {
+    font-size: max(3.51vw, 32px);
+    color: rgb(25, 78, 78);
+    font-weight: 800;
+}
+
+#hero-p {
+    font-size: max(1.76vw, 18px);
+    color:  rgb(25, 78, 78);
+    font-weight: 600;
+}
+
+#CTA {
+    text-decoration: none;
+    color: rgb(228, 225, 225);
+    background-color: rgb(25, 78, 78);
+    width: max(14.64vw, 150px);
+    height: max(5.49vw, 55px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: max(2.34vw, 24px);
+    font-weight: 400;
+    border-radius: 1.5rem;
+}
+
+#CTA:hover {
+    background-color: rgb(37, 211, 102);
+}
+
+#whatsapp {
+    width: max(4.39vw, 45px);
+    height: auto;
+}
+
+.connect {
+    display: flex;
+    align-items: center;
+    gap: 1.46vw;
+}
+
+#hero-img {
+    width: 36.58vw;
+    height: 36.58vw;
+    border-radius: 50%;
+}
+
+img {
+    width: 29.27vw;
+    height: 32.93vw;
+    object-fit: cover;
+}
+
+h2 {
+    font-size: max(2.34vw, 28px);
+    color: rgb(29, 25, 25);
+    font-weight: 600;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.83vw;
+    padding: 1.46vw 0;
+    background-color: rgba(25, 78, 78, 0.199);
+}
+
+footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2.2vw;
+    background-color: rgba(25, 78, 78, 0.199);
+    border-radius: 1.5rem;
+}
+
+#tiktok {
+    width: max(7.32vw, 80px);
+    height: auto;
+    padding: 20px;
+    border-radius: 1.5rem;
+    font-size: max(1.17vw, 18px);
+}
+
+#tiktok:hover {
+    background-color: rgba(0, 0, 0, 0.178);
+}
+
+h5 {
+    font-size: max(1.17vw, 18px);
+    padding: 0.73vw;
+}
+
+@media (max-width: 768px) {
+    main {
+        margin: 2.6vw 2.6vw 0;
+    }
+
+    .hero {
+        margin-right: 2.86vw;
+    }
+
+    h1 {
+        font-size: 4.17vw;
+    }
+
+    p {
+        font-size: 2.34vw;
+    }
+
+    #CTA {
+        width: 19.53vw;
+        height: 7.16vw;
+        font-size: 3.125vw;
+    }
+
+    #whatsapp {
+        width: 5.86vw;
+        height: auto;
+    }
+}
+
+@media (max-width: 540px) {
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    h1 {
+        font-size: max(5.56vw, 20px);
+    }
+
+    #hero-p {
+        font-size: max(3.7vw, 13px);
+    }
+
+    .connect {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #CTA {
+        width: max(46vw, 135px);
+        height: max(16vw, 75px);
+        font-size: max(5.2vw, 18px);
+    }
+
+    #whatsapp {
+        display: none;
+    }
+
+    #hero-img {
+        width: max(55.56vw, 190px);
+        height: max(55.56vw, 190px);
+    }
+
+    h2{
+        font-size: 5.16vw;
+    }
+
+    img {
+        width: 39vw;
+        height: 42vw;
+    }
+
+    .images {
+        display: flex;
+        gap: 5px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
